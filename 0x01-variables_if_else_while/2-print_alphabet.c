@@ -2,7 +2,7 @@
 /**
  *main -Entry point
  *Description: 'Print alphabets lowercase'
- *Rturn: Always 0
+ *Return: Always 0
  */
 int main(void)
 {
@@ -14,5 +14,6 @@ int main(void)
 		n++;
 	}
 	putchar('\n');
+	/* Indicate that the main function returns 0 */
 	return (0);
 }
